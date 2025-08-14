@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modello di Kolb</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="hero">
+    <h1 class="title">Modello di Kolb</h1>
+    <p class="subtitle"><a href="https://marcoserafini.xyz" target="_blank">marcoserafini.xyz</a></p>
+    <a href="#main" class="enter-button">Entra</a>
+  </header>
+
+  <main id="main" class="visible">
+    <div class="tabs">
+      <button class="tab-button active" data-phase="esperienza">Esperienza</button>
+      <button class="tab-button" data-phase="riflessione">Riflessione</button>
+      <button class="tab-button" data-phase="concettualizzazione">Concettualizzazione</button>
+      <button class="tab-button" data-phase="sperimentazione">Sperimentazione</button>
+    </div>
+    <div class="card" id="content"></div>
+    <div class="card graph-card">
+      <h3>Visualizzazione Dati</h3>
+      <canvas id="kolbChart" width="400" height="300"></canvas>
+    </div>
+  </main>
+
+  <button class="theme-toggle">🌗 Tema</button>
+  <footer>Creato da <a href="https://marcoserafini.xyz" target="_blank">marcoserafini.xyz</a></footer>
+</body>
+</html>
