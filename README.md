@@ -28,8 +28,3 @@ Questa web app rappresenta in modo visuale e dinamico il **Modello di Apprendime
 - LocalStorage per tema persistente
 - Accessibilità e contrasto ottimizzato
 
-## Come usarla
-
-### 1. Clona o scarica il repository
-```bash
-git clone https://github.com/marcoserafini/kolb-model.git
